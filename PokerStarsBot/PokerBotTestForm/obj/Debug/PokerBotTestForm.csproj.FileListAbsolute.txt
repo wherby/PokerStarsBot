@@ -20,3 +20,5 @@ E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.cspro
 E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.Form1.resources
 E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.Properties.Resources.resources
 E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.csproj.GenerateResource.Cache
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\UIControl.Lib.dll
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\UIControl.Lib.pdb

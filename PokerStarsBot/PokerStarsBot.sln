@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Blend for Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerStarsBot", "PokerStarsBot\PokerStarsBot.csproj", "{88A57EE3-E025-45DF-B5A6-BD98C1937826}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDetection.Lib", "CardDetection.Lib\CardDetection.Lib.csproj", "{0B69B252-6582-4C92-A63C-C78AC440375C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerBotTestForm", "PokerBotTestForm\PokerBotTestForm.csproj", "{D6DD3152-03B4-4242-AE43-6D5BAC4FBED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIControl.Lib", "UIControl.Lib\UIControl.Lib.csproj", "{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D6DD3152-03B4-4242-AE43-6D5BAC4FBED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DD3152-03B4-4242-AE43-6D5BAC4FBED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6DD3152-03B4-4242-AE43-6D5BAC4FBED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

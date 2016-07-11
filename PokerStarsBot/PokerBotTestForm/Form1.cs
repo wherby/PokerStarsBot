@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CardDetection.Lib;
 using System.Configuration;
+using UIControl.Lib;
+
 
 namespace PokerBotTestForm
 {
@@ -93,6 +95,11 @@ namespace PokerBotTestForm
             {
                 MessageBox.Show(msg, "Cards in Community");
             }
+        }
+
+        private void btnUIClick_Click(object sender, EventArgs e)
+        {
+            UIControl.Lib.UIControl.CaptureApplication("PokerStars");
         }
     }
 }
