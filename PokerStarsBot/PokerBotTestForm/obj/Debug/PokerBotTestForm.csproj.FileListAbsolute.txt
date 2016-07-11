@@ -9,3 +9,14 @@ E:\oDesk\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm
 E:\oDesk\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.csproj.GenerateResource.Cache
 E:\oDesk\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.exe
 E:\oDesk\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.pdb
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\PokerBotTestForm.exe.config
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.exe
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.pdb
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\PokerBotTestForm.exe
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\PokerBotTestForm.pdb
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\CardDetection.Lib.dll
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\bin\Debug\CardDetection.Lib.pdb
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.csprojResolveAssemblyReference.cache
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.Form1.resources
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.Properties.Resources.resources
+E:\PokerStarsBot\PokerStarsBot\PokerBotTestForm\obj\Debug\PokerBotTestForm.csproj.GenerateResource.Cache
