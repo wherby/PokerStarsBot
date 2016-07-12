@@ -17,6 +17,7 @@ namespace UIControl.Lib
     {
         public static int left = 0, right = 0, top = 0, bot = 0;
         public static int WIDTH = 800, HEIGHT = 600, widthReal=0, heightReal=0;
+        private static Process procPoker = null;
 
         public static void CaptureApplication(string procName)
         {
@@ -32,38 +33,54 @@ namespace UIControl.Lib
             heightReal = bot - top;
             System.Windows.MessageBox.Show("left:" + rect.left.ToString()+ "  right: "+ rect.right.ToString()+
                  " top "+rect.top+ " bot " +rect.bottom, "Cards in Hand");
-            clickRaise(proc);
+            //clickRaise();
 
         }
 
-        public static void clickFold(Process proc) {
+        private static Process getProcess() {
+            procPoker = Process.GetProcessesByName("PokerStars")[0];
+            return procPoker;
+        }
+
+        public static void clickFold() {
+            if (procPoker == null) {
+                procPoker = getProcess();
+            }
             if (left == 0) {
                 CaptureApplication("PokerStars");
             }
-            int width = 432, height = 500;
+            int width = 432, height = 520;
             var point = new System.Drawing.Point(width *widthReal /WIDTH, height * heightReal /HEIGHT);
-            ClickOnPointTool.ClickOnPoint(proc.MainWindowHandle, point);
+            ClickOnPointTool.ClickOnPoint(procPoker.MainWindowHandle, point);
         }
 
-        public static void clickCheck(Process proc)
+        public static void clickCheck()
         {
+            if (procPoker == null)
+            {
+                procPoker = getProcess();
+            }
             if (left == 0)
             {
                 CaptureApplication("PokerStars");
             }
-            int width = 597, height = 500;
+            int width = 597, height = 520;
             var point = new System.Drawing.Point(width * widthReal / WIDTH, height * heightReal / HEIGHT);
-            ClickOnPointTool.ClickOnPoint(proc.MainWindowHandle, point);
+            ClickOnPointTool.ClickOnPoint(procPoker.MainWindowHandle, point);
         }
 
-        public static void clickRaise(Process proc) {
+        public static void clickRaise() {
+            if (procPoker == null)
+            {
+                procPoker = getProcess();
+            }
             if (left == 0)
             {
                 CaptureApplication("PokerStars");
             }
-            int width = 729, height = 500;
+            int width = 729, height = 520;
             var point = new System.Drawing.Point(width * widthReal / WIDTH, height * heightReal / HEIGHT);
-            ClickOnPointTool.ClickOnPoint(proc.MainWindowHandle, point);
+            ClickOnPointTool.ClickOnPoint(procPoker.MainWindowHandle, point);
         }
     }
 
@@ -125,7 +142,7 @@ namespace UIControl.Lib
             SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(INPUT)));
 
             /// return mouse 
-           // Cursor.Position = oldPos;
+         //   Cursor.Position = oldPos;
         }
 
     }

@@ -99,7 +99,17 @@ namespace PokerBotTestForm
 
         private void btnUIClick_Click(object sender, EventArgs e)
         {
-            UIControl.Lib.UIControl.CaptureApplication("PokerStars");
+            UIControl.Lib.UIControl.clickFold();
+        }
+
+        private void btnCall_Click(object sender, EventArgs e)
+        {
+            UIControl.Lib.UIControl.clickCheck();
+        }
+
+        private void btnRaise_Click(object sender, EventArgs e)
+        {
+            UIControl.Lib.UIControl.clickRaise();
         }
     }
 }

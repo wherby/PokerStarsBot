@@ -8,8 +8,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDetection.Lib", "CardDetection.Lib\CardDetection.Lib.csproj", "{0B69B252-6582-4C92-A63C-C78AC440375C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerBotTestForm", "PokerBotTestForm\PokerBotTestForm.csproj", "{D6DD3152-03B4-4242-AE43-6D5BAC4FBED2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C818A911-7A66-4720-BCF4-466A7450B2DE} = {C818A911-7A66-4720-BCF4-466A7450B2DE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIControl.Lib", "UIControl.Lib\UIControl.Lib.csproj", "{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http.Lib", "Http.Lib\Http.Lib.csproj", "{C818A911-7A66-4720-BCF4-466A7450B2DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB22EF8-D4C7-4AB9-A0A4-F371453454FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C818A911-7A66-4720-BCF4-466A7450B2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C818A911-7A66-4720-BCF4-466A7450B2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C818A911-7A66-4720-BCF4-466A7450B2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C818A911-7A66-4720-BCF4-466A7450B2DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
